@@ -19,7 +19,7 @@ void main()
     for(int i=0;i<matR;i++)
     {
         for(int j=0;j<matC;j++)
-            printf("%d ",mat[i][j]); // displating updated matrix
+            printf("%d ",mat[i][j]); // displaying updated matrix
         printf("\n"); // breaking line after each row
     }
 }

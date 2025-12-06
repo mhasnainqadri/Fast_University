@@ -16,5 +16,5 @@ void main()
     scanf("%d",&targetC); // reading targetC
     printf("Column :\n");
     for(int i=0;i<matR;i++)
-        printf("%d ",mat[i][targetC-1]); // displaying target column using mat[targetR-1][i]
+        printf("%d ",mat[i][targetC-1]); // displaying target column using mat[i][targetC-1]
 }

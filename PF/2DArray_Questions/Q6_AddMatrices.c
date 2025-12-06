@@ -29,7 +29,7 @@ void main()
             for(int j=0;j<matAcols;j++)
             {
                 addedMatrix[i][j]=matA[i][j]+matB[i][j]; // adding matA and matB & saving in addedMatrix
-                printf("%d ",addedMatrix[i][j]); // displating addedMatrix
+                printf("%d ",addedMatrix[i][j]); // displaying addedMatrix
             }
             printf("\n"); // breaking line after each row
         }

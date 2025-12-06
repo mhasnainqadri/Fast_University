@@ -1,6 +1,8 @@
-// Run the following command in the terminal before running the code :
-// chcp 65001
-// otherwise emojies cant be displayed in terminal
+/*
+Run the following command in the terminal before running the code :
+chcp 65001
+otherwise emojies cant be displayed in terminal
+*/
 #include<stdio.h>
 void main()
 {

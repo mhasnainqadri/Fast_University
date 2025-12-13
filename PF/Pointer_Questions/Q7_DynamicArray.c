@@ -20,5 +20,6 @@ void main()
         printf("%d ",*a); // writing dynamic array
         a++; // updating pointer to next address of dynamic array
     }
+    a-=size; // resetting pointer to base address of dynamic array
     free(a); // deallocating dynamic memory from pointer
 }

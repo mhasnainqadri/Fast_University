@@ -13,8 +13,9 @@ void main()
         scanf("%d",p); // reading input through pointer
         p++; // updating pointer to next address
     }
-    p-=size; // resetting pointer to starting address
+    p-=size; // resetting pointer to base address
     for(int i=0;i<size;i++,p++)
         printf("%d ",*p); // writing output through pointer
+    p-=size; // resetting pointer to base address
     free(p); // dealocating memory from heap
 }

@@ -29,5 +29,6 @@ void main()
         }
         printf("\n"); // breaking line after each row
     }
+    p-=(matR*matC); // resetting pointer to base address of dynamic 2D Array
     free(p); // deallocating dynamic memory from pointer
 }
